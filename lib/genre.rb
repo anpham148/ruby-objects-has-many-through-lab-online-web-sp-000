@@ -11,5 +11,5 @@ class Genre
   end
 
   def songs
-    en
+  end
 end

@@ -22,4 +22,5 @@ class Artist
   def genres
     Song.all.select{|song| song.genre}
   end
+  
 end

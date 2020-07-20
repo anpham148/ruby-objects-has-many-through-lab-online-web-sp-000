@@ -4,6 +4,6 @@ class Song
   def initialize(name, genre)
     @name = name
     @genre = genre
-    @@all << song
+    @@all << self
   end
 end
